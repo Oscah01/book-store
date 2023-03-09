@@ -168,13 +168,14 @@ Example command:
 ### Deployment
 
 You can deploy this project using:
+- Render
+- gh pages
 
 <!--
 Example:
 
 ```sh
-- Render
-- gh pages
+
 
 ```
  -->
