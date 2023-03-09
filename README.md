@@ -173,6 +173,8 @@ You can deploy this project using:
 Example:
 
 ```sh
+- Render
+- gh pages
 
 ```
  -->
