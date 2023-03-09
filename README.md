@@ -1,15 +1,34 @@
-<a name="readme-top"></a>
 
-<div align="center">
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-  <h3><b>Book Store</b></h3>
+Modify this file to match your project and remove sections that don't apply.
 
-</div>
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
+
+OPTIONAL SECTIONS:
+- FAQ
+
+After you're finished please remove all the comments and instructions!
+-->
+
+<!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
-  - [:camera: project screenshot](#screen-shoot)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
@@ -19,6 +38,8 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -26,70 +47,141 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Book Store CMS <a name="about-project"></a>
+<!-- PROJECT DESCRIPTION -->
 
-<p> this repository is React Redux single page application used to create, remove and display books from external API</p>
+# 📖 Bookstore -- react-redux project <a name="about-project"></a>
 
-## 🛠 Built With <a name="built-with"> </a>
+> This is a Bookstore application built with react and redux.
 
-> HTML 5 , css3, javascript ES6, External API and React/Redux
+## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> React, Redux, webpack , babel and Axios
+> - React
+> - Redux
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-  <li>Fetch books</li>
-  <li>Navigation to different pages</li>
-  <li>Redux toolkit</li>
-  <li>Axios library</li>
-  <li>Filter option by category</li>
-  <li>Post and remove books</li>
-<p align="right">(<a href="#readme-top">back to top</a>)</p><!-- LIVE DEMO -->
+> The application has the following key features.
+
+- **Add book functionality**
+- **Remove book functionality**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
->
+> Coming soon.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-to run on your localhost clone the project to local folder
-
-> <p>cd bookstore</p>
-> <p>npm i</p>
-> <p> npm start<p>
-
-### Setup
-
-> <p> git clone https://github.com/Oscah01/book-store.git</p>
-> cd bookstore
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+To run the project in your local environment, get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you only need:
+In order to run this project you need node js installed in your system.
 
-- latest web-browser
-- node.js and npm
+<!--
+Example command:
+
+```sh
+ gem install rails
+```
+ -->
+
+### Setup
+
+Clone this repository to your desired folder:
+
+<!--
+Example commands:
+
+```sh
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
+```
+--->
 
 ### Install
 
-To install this project in your local machine use
+Install this project with:
 
-> <p> npm i </p>
-> npm run build
+```sh
+  cd my-project
+  npm install
+```
 
 ### Usage
 
 To run the project, execute the following command:
 
-> In visual studio code open terminal then write "npm start" after on your browser open "http://localhost:3000".
+```sh
+  npm start
+```
 
-## 👥 Authors <a name="authors"></a>
+### Run tests
+
+To run tests, run the following command:
+
+<!--
+Example command:
+
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
+
+```sh
+  npm test
+```
+
+### Deployment
+
+You can deploy this project using:
+
+<!--
+Example:
+
+```sh
+
+```
+ -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Author <a name="authors"></a>
 
 👤 **Oscar Deus**
 
@@ -97,34 +189,36 @@ To run the project, execute the following command:
 - Twitter: [@alphonce_isaya](https://twitter.com/alphonce_isaya)
 - LinkedIn: [oscar-deus](linkedin.com/in/oscar-deus-757833210/)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Styling UI
+> The finished application will have the following features
+
+- [ ] **Fetch books...**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Oscah01/book-store/issues).
+Feel free to check the [issues page](../../issues/).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Show your support <a name="support"></a>
 
-## ⭐️ Show your support <a name="support"></a>
+Give a ⭐️ if you like this project!
 
-> If you like the project please give it star
+## Acknowledgments <a name="acknowledgements"></a>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> I would like to thank Microverse team
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- Hat tip to anyone who inspired this project
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](LICENSE.md) licensed.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<a name="readme-top"></a>
