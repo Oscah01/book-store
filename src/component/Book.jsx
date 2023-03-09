@@ -4,7 +4,9 @@ import { useDispatch } from 'react-redux';
 import { booksActions, deleteBook } from '../redux/books/bookSlice';
 
 const Book = ({ item }) => {
-  const { title, author } = item;
+  const {
+    title, author,
+  } = item;
   const dispatch = useDispatch();
 
   const removeBookHandler = () => {
@@ -14,18 +16,45 @@ const Book = ({ item }) => {
   };
 
   return (
-    <>
-      <div>
-        <h2>{title}</h2>
-        <span>
+    <div className="card">
+      <section>
+        <p className="category">Action</p>
+        <h2 className="title">{title}</h2>
+        <span className="author">
           By
           {author}
         </span>
-        <button type="button" onClick={removeBookHandler}>
-          Remove
-        </button>
+        <div className="actions">
+          <button type="button">comments</button>
+          <button
+            className="removeBtn"
+            type="button"
+            onClick={removeBookHandler}
+          >
+            Remove
+          </button>
+          <button type="button">Edit</button>
+        </div>
+      </section>
+      <div className="percentage">
+        <div className="circle-wrap">
+          <div className="inside-circle" />
+          <div className="progress" />
+        </div>
+        <p>
+          <span>0%</span>
+          <br />
+          <span>Completed</span>
+        </p>
       </div>
-    </>
+      <div className="chapter">
+        <p>
+          <span>CURRENT CHAPTER</span>
+          <span>Chapter 1</span>
+          <button type="button">UPDATE PROGRESS</button>
+        </p>
+      </div>
+    </div>
   );
 };
 

@@ -1,17 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { IoIosPerson } from 'react-icons/io';
 
 const Navigation = () => (
-  <nav>
-    <div className="header">
-      <h1 className="title">Book Stores </h1>
-
-      <ul>
-        <li><Link to="/">Books</Link></li>
-        <li><Link to="/categories">Categories</Link></li>
-      </ul>
-    </div>
-  </nav>
+  <>
+    <header>
+      <h1>Book Stores </h1>
+      <nav>
+        <Link to="/">Books</Link>
+        <Link to="/categories">Categories</Link>
+      </nav>
+      <IoIosPerson className="icon" />
+    </header>
+  </>
 );
 
 export default Navigation;

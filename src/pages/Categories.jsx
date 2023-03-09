@@ -6,7 +6,7 @@ const Categories = () => {
   const status = useSelector((state) => state.categories.status);
   const dispatch = useDispatch();
   return (
-    <div>
+    <div className="categories">
       <button type="button" onClick={() => dispatch(checkStatus())}>
         Check Status
       </button>

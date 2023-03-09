@@ -9,8 +9,8 @@ const Books = () => {
   useEffect(() => {
     dispatch(getBooks());
   }, [dispatch]);
-  const booklists = useSelector((state) => state.books.books);
 
+  const booklists = useSelector((state) => state.books.books);
   return (
     <div>
       <div>

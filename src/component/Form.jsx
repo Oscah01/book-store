@@ -35,26 +35,29 @@ const Form = () => {
   };
 
   return (
-    <div className="form-wrapper row">
-      <form onSubmit={submitHandler}>
-        <input
-          type="text"
-          name="title"
-          value={title}
-          aria-label="Book title input"
-          placeholder="Book Title"
-          onChange={titleChangeHandler}
-        />
-        <input
-          type="text"
-          name="author"
-          value={author}
-          aria-label="Book author input"
-          placeholder="Author"
-          onChange={authorChangeHandler}
-        />
-        <button type="submit">Submit</button>
-      </form>
+    <div className="input-form">
+      <div className="addBook">
+        <h2>Add new book</h2>
+        <form className="form" onSubmit={submitHandler}>
+          <input
+            type="text"
+            name="title"
+            value={title}
+            aria-label="Book title input"
+            placeholder="Book Title"
+            onChange={titleChangeHandler}
+          />
+          <input
+            type="text"
+            name="author"
+            value={author}
+            aria-label="Book author input"
+            placeholder="Author"
+            onChange={authorChangeHandler}
+          />
+          <button type="submit">Submit</button>
+        </form>
+      </div>
     </div>
   );
 };
