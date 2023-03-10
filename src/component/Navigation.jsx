@@ -5,7 +5,7 @@ import { IoIosPerson } from 'react-icons/io';
 const Navigation = () => (
   <>
     <header>
-      <h1>Book Stores </h1>
+      <h2>Book Store </h2>
       <nav>
         <Link to="/">Books</Link>
         <Link to="/categories">Categories</Link>

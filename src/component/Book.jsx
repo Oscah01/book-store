@@ -19,7 +19,7 @@ const Book = ({ item }) => {
     <div className="card">
       <section>
         <p className="category">Action</p>
-        <h2 className="title">{title}</h2>
+        <h3 className="title">{title}</h3>
         <span className="author">
           By
           {author}

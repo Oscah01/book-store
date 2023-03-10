@@ -33,13 +33,14 @@ header {
   align-items: center;
   justify-content: flex-start;
   gap: 2rem;
-  padding: 2.9rem 10rem;
+  padding: 1.5rem 10rem;
   background-color: #fafafa;
   box-shadow: 0 0 60px 0 rgba(0, 0, 0, 0.05);
   margin-bottom: 1.9rem;
+  margin-left: 60px;
 }
 
-h1 {
+h2 {
   color: #0290ff;
 }
 
