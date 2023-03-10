@@ -5,8 +5,10 @@
   background-color: #fff;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  margin: 14px 200px 20px 150px;
+  width: 80%;
   padding: 30px 30px;
-  margin: 14px 400px 20px 350px;
+  margin: 14px 200px 20px 150px;
   font-family: var(--font-family-montserrat);
   font-weight: normal;
   color: var(--color-black-two);
@@ -14,7 +16,7 @@
 }
 
 section {
-  width: 85%;
+  width: 100%;
 }
 
 .category {

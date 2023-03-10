@@ -24,7 +24,7 @@ body {
   font-size: 40px;
   padding: 5px;
   cursor: pointer;
-  margin-left: -100px;
+  margin-left: 75px;
 }
 
 header {
@@ -65,26 +65,10 @@ form button {
   border: none;
   border-radius: 3px;
   color: #fff;
+  width: 300px;
 }
 
-ul {
-  margin: 0 10rem;
-  list-style: none;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  flex-direction: column;
-  gap: 0.64rem;
-}
 
-li {
-  background-color: #fafafa;
-  width: 100%;
-  padding: 1.5rem 15.7rem 1.5rem 3rem;
-  display: grid;
-  grid-template-columns: 3fr 1fr 2fr;
-  align-items: center;
-}
 
 .bookItem {
   display: flex;
@@ -163,7 +147,7 @@ li {
 
 .percentage {
   display: flex;
-  padding: 0 50px 20px 0;
+  padding: 0 50px 20px ;
   margin: 20px 0;
   gap: 20px;
   align-items: center;
@@ -180,7 +164,7 @@ li {
 }
 
 .chapter p {
-  margin-left: 50px;
+  margin-left: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -204,11 +188,13 @@ li {
 }
 
 .input-form {
+  width: 100%;
   display: grid;
   grid-template-columns: 6fr 2fr 2fr;
   gap: 24px;
   margin-top: 60px;
-  padding-left: 350px;
+  margin-bottom: 100%;
+  padding-left: 150px;
 }
 
 .input-form h2 {
@@ -220,20 +206,16 @@ li {
 .form {
   display: grid;
   gap: 40px;
-  margin-right: -255px;
+  margin-right: -485px;
   grid-template-columns: 10fr 1fr 2fr;
 }
 
 hr {
   color: #e8e8e8;
-  opacity: 50%;
-  margin-top: 2rem;
-}
-
-form {
-  display: grid;
-  grid-template-columns: 19fr 9fr 5fr 1fr;
-  gap: 30px;
+  opacity: 40%;
+  margin-top: 5rem;
+  width: 149rem;
+  margin-left: 15rem;
 }
 
 .input-form input {
